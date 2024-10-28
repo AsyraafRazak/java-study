@@ -7,5 +7,9 @@ public class Mathmethod {
         System.out.println(Math.abs(-4.7)); //absolute (positive) value of x
         System.out.println(Math.random()); //random number between 0.0 (inclusive), and 1.0 (exclusive)
 
+        System.out.println("Example for Random Number");
+        int randomNum = (int)(Math.random() * 101);  // 0 to 100
+        System.out.println(randomNum);
+
     }
 }
