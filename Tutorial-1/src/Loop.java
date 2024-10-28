@@ -44,5 +44,15 @@ public class Loop {
         for (String j : cars) {
         System.out.print(j + " ");
         }
+
+        System.out.println("Bonus : Break and Continue");
+        System.out.println("Break : jump out");
+        System.out.println("Continue : breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop");
+        for (i = 0; i < 10; i++) {
+            if (i == 4) {
+              continue;
+            }
+            System.out.print(i + " ");
+          }
     }
 }
